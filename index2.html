@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwitter</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <button id="salir" onclick="salir2()">salir</button>
+        <p></p>
+        <h1 id="letra">Kwitter</h1>
+        <br>
+<img src="pngwing.com.png" id="logo">
+<p></p>
+<h2 id="hola">Hola usuario</h2>
+<h2>Puedes crear una sala o unirte a una que ya existe</h2>
+<h3>Añadir sala</h3>
+<p></p>
+<input type="text" id="input2"placeholder="Escriba un nombre para su sala">
+<p></p>
+<button id="agregar" onclick="salas()">Agregar sala</button>
+<p></p>
+<h3>Salas existentes</h3>
+<br>
+<div id="div">
+    <h3>Salas creadas</h3>
+</div>
+    </center>
+    <script src="main2.js"></script>
+</body>
+</html>

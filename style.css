@@ -1,0 +1,82 @@
+#letra{
+    font-family: 'Righteous', cursive;
+    font-size: 100px;
+}
+body{
+    background: linear-gradient(to bottom,rgb(0, 0, 255),rgb(45, 45, 162),rgb(35, 35, 97));
+    height: 1000%;
+    font-family: 'Righteous', cursive;
+}
+#logo{
+    width: 250px;
+}#input{
+width: 500px;
+text-align: center;
+border-radius: 500px;
+padding: 15px;
+font-family: 'Righteous', cursive;
+    font-size: 25px;
+    font-weight: 900;
+}
+#iniciar{
+    background-color: blue;
+    padding: 8px;
+    border-radius: 999px;
+    color: rgb(0, 208, 255);
+    font-weight: 900;
+    border-color: black;
+    border-style: double;
+}
+#salir{
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 999px;
+    font-weight: 900;
+    border-color: black;
+    border-style: double;
+    width: 100px;
+}
+#input2{
+    width: 500px;
+text-align: center;
+border-radius: 500px;
+padding: 15px;
+font-family: 'Righteous', cursive;
+    font-size: 25px;
+    font-weight: 900;
+}
+#agregar{
+    background-color: blue;
+    padding: 8px;
+    border-radius: 999px;
+    color: rgb(0, 208, 255);
+    font-weight: 900;
+    border-color: black;
+    border-style: double;
+}
+#div{
+    border-color: slategray;
+    border-width: 5px;
+    background-color: blanchedalmond;
+    width: 700px;
+    border-style: double;
+}
+#type{
+    width: 550px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 999px;
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    color: black;
+    font-weight: 900;
+}
+#nottub{
+    background-color: blue;
+    padding: 8px;
+    border-radius: 999px;
+    color: rgb(0, 208, 255);
+    font-weight: 900;
+    border-color: black;
+    border-style: double;
+}
